@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizontal Card Layout Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="demo-shell">
+    <header class="demo-header">
+      <p class="eyebrow">EaseMotion Submission</p>
+      <h1>Horizontal Card Layout</h1>
+      <p>
+        A responsive card component designed for dashboards, profiles,
+        articles, and product listings with smooth interactions and
+        multiple variants.
+      </p>
+    </header>
+
+    <section class="card-stack" aria-label="Horizontal card examples">
+
+      <!-- Standard Card -->
+      <article class="horizontal-card">
+        <div class="card-media media-blue">UI</div>
+
+        <div class="card-content">
+          <span class="card-kicker">Component Pattern</span>
+          <h2>Dashboard Activity Card</h2>
+
+          <p>
+            A balanced horizontal card with media, content, metadata,
+            and a clear call-to-action.
+          </p>
+
+          <div class="card-footer">
+            <span>Updated today</span>
+            <a href="#">View Details</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Compact Card -->
+      <article class="horizontal-card compact-card">
+        <div class="card-media media-green">API</div>
+
+        <div class="card-content">
+          <span class="card-kicker">Compact Variant</span>
+          <h2>Integration Status</h2>
+
+          <p>
+            Useful for content-dense layouts where vertical space is
+            limited but visual context is important.
+          </p>
+
+          <div class="card-footer">
+            <span>4 Checks Passed</span>
+            <a href="#">Open</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Featured Card -->
+      <article class="horizontal-card featured-card">
+        <div class="card-media media-purple">DEV</div>
+
+        <div class="card-content">
+          <div class="top-row">
+            <span class="card-kicker">Featured</span>
+            <span class="status-badge">Active</span>
+          </div>
+
+          <h2>Developer Profile Card</h2>
+
+          <p>
+            Showcases profile information, project highlights, and
+            actions in a clean scan-friendly layout.
+          </p>
+
+          <div class="card-footer">
+            <span>Last Active 2h ago</span>
+            <a href="#">View Profile</a>
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+</body>
+</html>
